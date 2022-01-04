@@ -10,6 +10,7 @@ class EventsNew extends Component {
     super(props)
     this.onSubmit = this.onSubmit.bind(this)
   }
+
   renderField(field) {
     const { input, label, type, meta: { touched, error } } = field
 
